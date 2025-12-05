@@ -5,13 +5,11 @@ body {
     margin: 0;
 }
 
-/* Título */
 h1 {
     text-align: center;
     color: #f8f8f8;
 }
 
-/* Tabela */
 table {
     width: 90%;
     margin: auto;
@@ -20,35 +18,30 @@ table {
     box-shadow: 0px 0px 10px #00000020;
 }
 
-/* Cabeçalho da tabela */
+
 th {
     background: #252525;
     color: white;
     padding: 12px;
     font-size: 16px;
-    text-align: center; /* JÁ ESTAVA CENTRALIZADO */
-}
-
-/* Linhas */
-td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    /* ALTERAÇÃO: ALINHA O DADO COM O CABEÇALHO */
     text-align: center;
 }
 
-/* Linha alternada */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
 tr:nth-child(even) {
     background: #f7f7f7;
 }
 
-/* Hover */
 tr:hover {
     background: #cacaca;
     transition: 0.3s 0.2s ease all;
 }
 
-/* Botão voltar ou menu */
 .btn-menu {
     display: block;
     width: 200px;
@@ -65,7 +58,6 @@ tr:hover {
 .btn-menu:hover {
     background: #3d8b40;
 }
-/* O restante do seu CSS original */
 a {
     display: block;
     width: 200px;

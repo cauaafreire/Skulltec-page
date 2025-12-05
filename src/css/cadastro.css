@@ -26,7 +26,6 @@ label {
     color: #eeeeee;
 }
 
-/* Inputs padrão */
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -42,20 +41,17 @@ textarea {
     font-size: 15px;
 }
 
-/* Select estilizado */
 select {
     background: #fff;
     cursor: pointer;
 }
 
-/* Radio */
 span {
     margin-right: 15px;
     font-size: 15px;
     color: #ffffff;
 }
 
-/* Botões */
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {

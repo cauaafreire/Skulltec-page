@@ -14,31 +14,25 @@ a:hover {
     opacity: 0.7;
 }
 
-/* =============== HEADER =============== */
 header {
     justify-content: space-between;
     padding: 18px 40px;
-    /* opcional para afastar das bordas */
-
     background-color: #ffffff;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    /* opcional para afastar das bordas */
-
     position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
 }
 
-/* NAV CONTAINER */
+
 nav.nav-right {
     width: 100%;
     max-width: 1400px;
-    /* centraliza igual ao antigo */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,12 +40,10 @@ nav.nav-right {
     margin-left: 200px;
 }
 
-/* LOGO */
 .logo {
     height: 50px;
 }
 
-/* LISTA NAV */
 .nav-list {
     list-style: none;
     display: flex;
@@ -72,7 +64,6 @@ nav.nav-right {
     transition: 0.3s ease;
 }
 
-/* HAMBURGER MENU */
 .mobile-menu {
     display: none;
     cursor: pointer;
@@ -86,7 +77,6 @@ nav.nav-right {
     transition: 0.3s;
 }
 
-/* Botão Voltar - igual ao antigo */
 .back-btn {
     background: #0D0E0E;
     color: #ffffff !important;
@@ -103,9 +93,6 @@ nav.nav-right {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
 }
 
-
-/* =============== RESPONSIVO =============== */
-
 @media (max-width: 999px) {
     body {
         overflow-x: hidden;
@@ -114,7 +101,6 @@ nav.nav-right {
     nav.nav-right {
         width: 100%;
         max-width: 1400px;
-        /* centraliza igual ao antigo */
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -157,7 +143,6 @@ nav.nav-right {
 
 }
 
-/* animação hamburger */
 .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
 }

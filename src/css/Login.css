@@ -5,9 +5,9 @@ body {
     padding: 0;
 
     display: flex;
-    justify-content: center;   /* horizontal */
-    align-items: center;        /* vertical */
-    height: 100vh;              /* ocupa a tela toda */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .login-box {
@@ -33,11 +33,9 @@ body {
     padding: 12px;
     margin: 10px 0;
     font-size: 16px;
-
     border: 1px solid #d4d4d4;
     border-radius: 6px;
     outline: none;
-
     transition: 0.2s;
 }
 
@@ -47,7 +45,6 @@ body {
     width: 100%;
     padding: 12px;
     margin-top: 15px;
-
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
