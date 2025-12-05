@@ -13,7 +13,7 @@
             <label for="txtcodi">Cpf do curriculo a ser admitido:</label>                 
             <input type="text" name="txtcpf" id="txtcpf" style="width:40%"/>
             <input type="submit" name="bt" value="Confirma"/> 
-            <input type="button" value="Menu" onClick="location.href='index.html'"/>
+            <input type="button" value="Menu" onClick="location.href='menu.html'"/>
         </form>
         
         <?php 

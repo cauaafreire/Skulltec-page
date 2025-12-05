@@ -72,15 +72,15 @@
                     $vnome=$linha['nome_t'];
                     $vemai=$linha['emai_t'];
                     $vsexo=$linha['sexo_t'];
-                    $vformacao=$linha['formacao_t'];
                     $vexperiencia=$linha['experiencia_t'];
+                    $vformacao=$linha['formacao_t'];
                     echo "<tr>
                             <td>$vcpf</td>
                             <td>$vnome</td>
                             <td>$vemai</td>
                             <td>$vsexo</td>
-                            <td>$vexperiencia</td>
-                            <td>$vformacao</td>          
+                            <td>$vexperiencia</td> 
+                            <td>$vformacao</td>      
                         </tr>";
                 }
                 echo "</table>";
