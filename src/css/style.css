@@ -44,6 +44,7 @@ section {
 }
 
 .section-title {
+    margin-top: -100px;
     text-align: center;
     font-size: 4vh;
     font-weight: 700;
@@ -187,7 +188,7 @@ section {
 
 #cta p {
     max-width: 420px;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.4;
     margin-bottom: 25px;
     color: #333;
@@ -483,5 +484,14 @@ section {
         position: relative;
         display: flex;
         justify-content: center;
+    }
+
+    .section-title {
+        margin-top: -100px;
+        text-align: center;
+        font-size: 4vh;
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: #ffffff;
     }
 }
