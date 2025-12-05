@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0d0d0d;
+    padding: 20px;
+    margin: 0;
+}
+
+form {
+    background: #272727;
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00000020;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+label {
+    font-size: 16px;
+    color: #eeeeee;
+}
+
+/* Inputs padrão */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* Select estilizado */
+select {
+    background: #fff;
+    cursor: pointer;
+}
+
+/* Radio */
+span {
+    margin-right: 15px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/* Botões */
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover {
+    transition: 0.3s 0.2s ease all;
+    background-color: #fff;
+    color: #0D0E0E;
+    box-shadow: 10 8px 30px rgb(0, 0, 0, )
+}
+
+input[type="reset"] {
+    background: #ff0000;
+    color: white;
+}
+
+input[type="reset"]:hover {
+    background: #9c0000;
+    transition: 0.3s 0.2s ease all;
+}
+
+input[type="button"] {
+    background: #4caf50;
+    color: white;
+}
+
+input[type="button"]:hover {
+    background: #3d8b40;
+    transition: 0.3s 0.2s ease all;
+}
+

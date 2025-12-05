@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Skull Tec</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-right" id="mobileMenu">
+            <a href="./index.html"><img src="./src/assets/img/logodeitadapng.png" alt="Logo Skull Tec" class="logo"></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="#topo">Início</a></li>
+                <li><a href="#Solucoes">Soluções</a></li>
+                <li><a href="#Parcerias">Parcerias</a></li>
+                <li><a href="#AgReuniao">Agendar reuniao</a></li>
+                <li><a class="btn primary back-btn" href="./src/php/login.html">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="topo" class="topo">
+        <img src="./src/assets/img//fundo_upscaled.png" alt="FundoCaveira" id="imgaliada">
+    </section>
+
+    <section id="Solucoes">
+        <div class="container">
+            <h3 class="section-title">Soluções que transformam possibilidades em realidades</h3>
+            <p class="section-sub">Unimos inovação tecnológica com expertise para gerar vantagem competitiva</p>
+
+            <div class="cards">
+                <div class="card">
+                    <h4>Aplicações PHP</h4>
+                    <p>Soluções flexíveis em PHP para e-commerce, sistemas administrativos, APIs e plataformas
+                        personalizadas.</p>
+                </div>
+
+                <div class="card">
+                    <h4>Web & Front-end</h4>
+                    <p>Interfaces modernas em HTML, CSS e JavaScript, ideais para sites, landing pages e ferramentas
+                        interativas responsivas.</p>
+                </div>
+
+                <div class="card">
+                    <h4>Desenvolvimento Desktop</h4>
+                    <p>Sistemas em Windows Forms para automação interna, gestão operacional e controle de dados
+                        corporativos.</p>
+                </div>
+
+                <div class="card">
+                    <h4>Sistemas Web</h4>
+                    <p>Plataformas em ASP.NET MVC com alta performance para portais, dashboards e integração de
+                        serviços.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Parcerias">
+        <div class="container">
+            <h3 class="section-title">Parcerias que impulsionam inovação</h3>
+            <p class="section-sub">Trabalhamos com empresas e profissionais para criar soluções mais completas,
+                integradas e eficientes.</p>
+
+            <div class="partners">
+                <img src="./src/assets/img/logobravyn.png" alt="Bravyn">
+                <img src="./src/assets/img/LogoCoreDev.png" alt="CoreDev">
+            </div>
+        </div>
+    </section>
+
+    <section id="Relatos">
+        <div class="container">
+            <h3 class="section-title">Os relatos dos ativos mais importantes</h3>
+            <p class="section-sub">Confira quem confiou na Skull Tech para transformar a TI.</p>
+
+            <div class="cardsRelatos">
+                <div class="cardRelatos">
+                    <p>A Skull Tech reorganizou nossa infraestrutura e padronizou processos. Hoje temos um ambiente
+                        estável e seguro — a produtividade cresceu.</p>
+                    <h5>Nexa Studio</h5>
+                    <h6>João Martins – Diretor de Operações</h6>
+                </div>
+
+                <div class="cardRelatos">
+                    <p>Assumiram suporte e automação, reduziram falhas e elevaram a segurança. Atendimento rápido e
+                        equipe experiente.</p>
+                    <h5>Global Prime Logistics</h5>
+                    <h6>Fernanda Ribeiro – Gerente de TI</h6>
+                </div>
+
+                <div class="cardRelatos">
+                    <p>Migração impecável: ambiente organizado e chamados resolvidos em minutos. Parceria que trouxe
+                        confiabilidade.</p>
+                    <h5>Alpha Sistemas</h5>
+                    <h6>Rafael Moreira – Sócio-Fundador</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <img src="./src/assets/img/caveirat.png" aria-hidden="true" class="watermark" alt="">
+        <div class="container cta">
+            <div class="text">
+                <h3>Quer fazer parte da SkullTec?</h3>
+                <p>Junte-se ao nosso time ou envie sua proposta — trabalhamos em projetos que transformam ideias em
+                    produtos.</p>
+            </div>
+            <a class="btn" href="./src/php/cadastro.html">Faça parte do nosso time</a>
+        </div>
+    </section>
+
+    <section id="AgReuniao">
+        <img class="bg-ag" src="./src/assets/img/fundore.png" alt="">
+        <div class="container agendar">
+
+            <div class="ag-left">
+                <h1>Vamos co-criar a solução ideal?</h1>
+                <p>Conte qual desafio sua empresa enfrenta e vamos co-criar a solução com você.</p>
+            </div>
+
+            <form class="form-card" action="mailto:skulltecaveira@outlook.com" method="post" enctype="text/plain"
+                novalidate>
+
+                <label for="nome">Nome completo *</label>
+                <input id="nome" type="text" name="nome" required>
+
+                <label for="email">E-mail corporativo *</label>
+                <input id="email" type="email" name="email" required>
+
+                <label for="telefone">Celular (DDD + número) *</label>
+                <input id="telefone" type="tel" name="telefone" pattern="\(?\d{2}\)?\s?\d{4,5}-\d{4}" required>
+
+                <label for="empresa">Empresa *</label>
+                <input id="empresa" type="text" name="empresa" required>
+
+                <label for="porte">Qual o porte da sua empresa? *</label>
+                <select id="porte" name="porte" required>
+                    <option>Startup (0–19 funcionários)</option>
+                    <option>Pequena (20–99 funcionários)</option>
+                    <option>Média (100–499 funcionários)</option>
+                    <option>Grande (500+ funcionários)</option>
+                </select>
+
+                <button class="submit" type="submit">Agendar reunião</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="./src/assets/img/logodeitadapng.png" alt="Logo Skull Tec" class="footer-logo">
+                <p>Transformando tecnologia em soluções reais.</p>
+            </div>
+
+            <div class="footer-nav">
+                <a href="#Solucoes">Soluções</a>
+                <a href="#Parcerias">Parcerias</a>
+                <a href="#AgReuniao">Agendar Reunião</a>
+                <a href="./src/php/menu.html">Entrar</a>
+            </div>
+
+            <div class="footer-social">
+                <a href="skullteccaveira@gmail.com"><img src="./src/assets/img/icons8-gmail-novo-50.png" alt="gmail"></a>
+                <a href="https://www.linkedin.com/in/skull-tec-11a1a43a0/"><img src="./src/assets/img/icons8-linkedin-50.png" alt="LinkedIn"></a>
+                <a href="https://w.app/skulltec"><img src="./src/assets/img/icons8-whatsapp-50.png" alt="Whatsapp"></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © Skull Tec — Todos os direitos reservados
+        </div>
+    </footer>
+
+
+    <script src="./src/js/mobile-navbar.js"></script>
+</body>
+
+</html>

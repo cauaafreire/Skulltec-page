@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login SkullTec</title>
+    <link rel="stylesheet" href="../css/Login.css">
+    <link rel="stylesheet" href="../css/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-right" id="mobileMenu">
+            <a href="../../index.html"><img src="../assets/img/logodeitadapng.png" alt="Logo Skull Tec"
+                    class="logo"></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a class="btn primary back-btn" href="../../index.html">Voltar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="login-box">
+        <h2>Login</h2>
+
+        <form action="login.php" method="post">
+            <input type="email" name="email" placeholder="Digite seu e-mail" required>
+            <input type="password" name="senha" placeholder="Digite sua senha" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+    <script src="../js/mobile-navbar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0d0d0d;
+    padding: 20px;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+
+hr {
+    margin-bottom: 25px;
+}
+
+
+form {
+    background: #272727;
+    width: 450px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00000020;
+}
+
+/* Label */
+label {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Campo de texto */
+input[type="text"],
+input[type="email"],
+select {
+    width: 98%;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 15px;
+    background: #fff;
+}
+
+/* Botões */
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+/* Select estilizado */
+select {
+    background: #fff;
+    cursor: pointer;
+}
+
+/* Textarea estilizado */
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Radio */
+span {
+    margin-right: 15px;
+    font-size: 15px;
+    color: #444;
+}
+
+input[type="submit"] {
+    background: #1e90ff;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background: #1878d3;
+}
+
+input[type="reset"] {
+    background: #ff0000;
+    color: white;
+}
+
+input[type="reset"]:hover {
+    background: #9c0000;
+}
+
+input[type="button"] {
+    background: #4caf50;
+    color: white;
+}
+
+input[type="button"]:hover {
+    background: #3a8a3f;
+}
+
+/* Tabela */
+table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden; /* deixa bordas arredondadas reais */
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Cabeçalho principal (linha azul grande) */
+table tr:first-child th {
+    background: #252525;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* Cabeçalho das colunas */
+th {
+    background: #252525;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    border-right: 1px solid rgba(255,255,255,0.3);
+}
+
+th:last-child {
+    border-right: none;
+}
+
+/* Células */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e6e6e6;
+    text-align: center;   /* ALINHAMENTO IGUAL AO DA IMAGEM */
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+/* Linhas alternadas */
+tr:nth-child(even) td {
+    background: #f9f9f9;
+}
+
+/* Hover */
+tr:hover td {
+    background: #cacaca;
+    transition: 0.3s 0.2s ease all;
+}
+
+a {
+    display: block;
+    width: 200px;
+    margin: 25px auto;
+    padding: 12px;
+    text-align: center;
+    background: #4caf50;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:hover {
+    background: #3d8b40;
+}
