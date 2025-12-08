@@ -62,8 +62,8 @@
                         <th>Nome</th>
                         <th>E-mail</th>
                         <th>Sexo</th>
-                        <th>Habilidades/Competencias</th>
                         <th>Formação</th>
+                        <th>Habilidades/Competencias</th>
                      </tr>";
                
                 while($linha=$listar->fetch(PDO::FETCH_ASSOC))
@@ -79,8 +79,8 @@
                             <td>$vnome</td>
                             <td>$vemai</td>
                             <td>$vsexo</td>
-                            <td>$vexperiencia</td> 
-                            <td>$vformacao</td>      
+                            <td>$vformacao</td>
+                            <td>$vexperiencia</td>       
                         </tr>";
                 }
                 echo "</table>";
